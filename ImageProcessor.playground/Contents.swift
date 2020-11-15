@@ -48,43 +48,43 @@ class Filter {
 
 class ImageProcessor {
     private let image: UIImage
-    var newRGBAImage: RGBAImage
+    var rgbaImage: RGBAImage
     
     init(image: UIImage) {
         self.image = image
-        self.newRGBAImage = RGBAImage(image: image)!
+        self.rgbaImage = RGBAImage(image: image)!
     }
     
     func applyFilter(filterName: String) -> Self {
-        let filter = Filter(rgbaImage: newRGBAImage)
+        let filter = Filter(rgbaImage: rgbaImage)
         
         if filterName == "Alpha" {
-            newRGBAImage = filter.applyFiftyPercentageAlphaFilter()
+            rgbaImage = filter.applyFiftyPercentageAlphaFilter()
             return self
         }
         
         if filterName == "Red" {
-            newRGBAImage = filter.applyFiftyPercentageRedFilter()
+            rgbaImage = filter.applyFiftyPercentageRedFilter()
             return self
         }
         
         if filterName == "Blue" {
-            newRGBAImage = filter.applyFiftyPercentageBlueFilter()
+            rgbaImage = filter.applyFiftyPercentageBlueFilter()
             return self
         }
         
         if filterName == "Green" {
-            newRGBAImage = filter.applyFiftyPercentageGreenFilter()
+            rgbaImage = filter.applyFiftyPercentageGreenFilter()
             return self
         }
         
         //default condition is contrast filter
-        newRGBAImage = filter.applyFiftyPercentageContrastFilter()
+        rgbaImage = filter.applyFiftyPercentageContrastFilter()
         return self
     }
 }
 
 let image = UIImage(named: "sample")!
 let imageProcessor = ImageProcessor(image: image)
-let newImage = imageProcessor.applyFilter(filterName: "Contrast").applyFilter(filterName: "Alpha").newRGBAImage.toUIImage()
+let newImage = imageProcessor.applyFilter(filterName: "Contrast").applyFilter(filterName: "Alpha").rgbaImage.toUIImage()
 
