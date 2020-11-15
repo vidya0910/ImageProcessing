@@ -48,7 +48,7 @@ class Filter {
 
 class ImageProcessor {
     private let image: UIImage
-    var rgbaImage: RGBAImage
+    private var rgbaImage: RGBAImage
     
     init(image: UIImage) {
         self.image = image
@@ -82,9 +82,13 @@ class ImageProcessor {
         rgbaImage = filter.applyFiftyPercentageContrastFilter()
         return self
     }
+    
+    func processedImage() -> UIImage? {
+        return rgbaImage.toUIImage()
+    }
 }
 
 let image = UIImage(named: "sample")!
 let imageProcessor = ImageProcessor(image: image)
-let newImage = imageProcessor.applyFilter(filterName: "Contrast").applyFilter(filterName: "Alpha").rgbaImage.toUIImage()
+let newImage = imageProcessor.applyFilter(filterName: "Contrast").applyFilter(filterName: "Alpha").processedImage()
 
