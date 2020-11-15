@@ -89,5 +89,5 @@ class ImageProcessor {
 
 let image = UIImage(named: "sample")!
 let imageProcessor = ImageProcessor(image: image)
-let newImage = imageProcessor.applyFilter(filterName: "Contrast").newRGBAImage.toUIImage()
+let newImage = imageProcessor.applyFilter(filterName: "Contrast").applyFilter(filterName: "Red").newRGBAImage.toUIImage()
 
