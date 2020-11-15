@@ -39,22 +39,21 @@ class Filter {
         return applyFilter(alpha: 0.5, red: 1, green: 1, blue: 1)
     }
 
-//    func applyFiftyPercentageRedFilter(_ pixel: Pixel) -> Pixel {
-//        rgbaImage
-//        return applyFilter(alpha: pixel.alpha, red: pixel.red/2, green: pixel.green, blue: pixel.blue)
-//    }
-//
-//    func applyFiftyPercentageGreenFilter(_ pixel: Pixel) -> Pixel {
-//        return applyFilter(alpha: pixel.alpha, red: pixel.red, green: pixel.green/2, blue: pixel.blue)
-//    }
-//
-//    func applyFiftyPercentageBlueFilter(_ pixel: Pixel) -> Pixel {
-//        return applyFilter(alpha: pixel.alpha, red: pixel.red, green: pixel.green, blue: pixel.blue/2)
-//    }
-//
-//    func applyFiftyPercentageContrastFilter(_ pixel: Pixel) -> Pixel {
-//        return applyFilter(alpha: pixel.alpha/2, red: pixel.red/2, green: pixel.green/2, blue: pixel.blue/2)
-//    }
+    func applyFiftyPercentageRedFilter() -> RGBAImage {
+        return applyFilter(alpha: 1, red: 0.5, green: 1, blue: 1)
+    }
+
+    func applyFiftyPercentageGreenFilter() -> RGBAImage {
+        return applyFilter(alpha: 1, red: 1, green: 0.5, blue: 1)
+    }
+
+    func applyFiftyPercentageBlueFilter() -> RGBAImage {
+        return applyFilter(alpha: 1, red: 1, green: 1, blue: 0.5)
+    }
+
+    func applyFiftyPercentageContrastFilter() -> RGBAImage {
+        return applyFilter(alpha: 1, red: 0.5, green: 0.5, blue: 0.5)
+    }
 
     private func applyFilter(alpha: Double, red: Double, green: Double, blue:Double) -> RGBAImage {
         
