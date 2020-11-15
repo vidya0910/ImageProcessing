@@ -82,33 +82,33 @@ class ImageProcessor {
     func applyFilter(filterName: String) -> UIImage {
         let rgbaImage = RGBAImage(image: image)!
         let filter = Filter(rgbaImage: rgbaImage)
-        let newRGBAImage = filter.applyFiftyPercentageAlphaFilter()
-        return newRGBAImage.toUIImage()!
         
-//        for y in 0 ..< rgbaImage.height {
-//            for x in 0 ..< rgbaImage.width {
-//                let index = y * rgbaImage.width + x
-//                var pixel = rgbaImage.pixels[index]
-//                if filterName == "Red" {
-//                    pixel.red = pixel.red/2
-//                }
-//                else if filterName == "Blue" {
-//                    pixel.blue = pixel.blue/2
-//                }
-//                else if filterName == "Green" {
-//                    pixel.green = pixel.green/2
-//                }
-//                else if filterName == "Alpha" {
-//                    pixel.alpha = pixel.alpha/2
-//                }
-//                rgbaImage.pixels[index] = pixel
-//            }
-//
-//        }
-//        return rgbaImage.toUIImage()!
+        if filterName == "Alpha" {
+           let newRGBAImage = filter.applyFiftyPercentageAlphaFilter()
+            return newRGBAImage.toUIImage()!
+        }
+        
+        if filterName == "Red" {
+           let newRGBAImage = filter.applyFiftyPercentageRedFilter()
+            return newRGBAImage.toUIImage()!
+        }
+        
+        if filterName == "Blue" {
+           let newRGBAImage = filter.applyFiftyPercentageBlueFilter()
+            return newRGBAImage.toUIImage()!
+        }
+        
+        if filterName == "Green" {
+           let newRGBAImage = filter.applyFiftyPercentageGreenFilter()
+            return newRGBAImage.toUIImage()!
+        }
+        
+        //default condition is contrast filter
+        let newRGBAImage = filter.applyFiftyPercentageContrastFilter()
+        return newRGBAImage.toUIImage()!
     }
 }
 
 let imageProcessor = ImageProcessor(image: image)
-let newImage = imageProcessor.applyFilter(filterName: "Blue")
+let newImage = imageProcessor.applyFilter(filterName: "Contrast")
 
