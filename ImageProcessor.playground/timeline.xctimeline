@@ -3,33 +3,38 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=2863&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=93&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152084.035825"
+         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=2729&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=90&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152277.757344"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152084.0359499"
+         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152277.757472"
          lockedSize = "{175, 50}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152084.036051"
+         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152277.757571"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152084.036141"
+         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152277.757664"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152084.0362279"
+         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=67&amp;EndingColumnNumber=0&amp;EndingLineNumber=3&amp;StartingColumnNumber=0&amp;StartingLineNumber=3&amp;Timestamp=627152277.757751"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=8&amp;CharacterRangeLoc=2812&amp;EndingColumnNumber=13&amp;EndingLineNumber=91&amp;StartingColumnNumber=5&amp;StartingLineNumber=91&amp;Timestamp=627152084.036316"
+         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=8&amp;CharacterRangeLoc=2676&amp;EndingColumnNumber=13&amp;EndingLineNumber=88&amp;StartingColumnNumber=5&amp;StartingLineNumber=88&amp;Timestamp=627152277.757838"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/Vidya/Documents/ImageProcessing/ImageProcessor.playground#CharacterRangeLen=14&amp;CharacterRangeLoc=2626&amp;EndingColumnNumber=19&amp;EndingLineNumber=87&amp;StartingColumnNumber=5&amp;StartingLineNumber=87&amp;Timestamp=627152277.7579319"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
